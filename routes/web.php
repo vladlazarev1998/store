@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+
+Route::group(['prefix' => 'admin', 'namespace' => '\App\Http\Controllers\Admin', 'middleware' => 'auth'], function() {
+    Route::get('/', [HomeController::class, 'index']);
+    Route::resource('/product', ProductController::class);
+    Route::resource('/category', CategoryController::class);
 });
 
 Auth::routes();
