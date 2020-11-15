@@ -129,6 +129,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -145,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605443244441</updated>
-      <workItem from="1605443247479" duration="174000" />
+      <workItem from="1605443247479" duration="1271000" />
     </task>
     <servers />
   </component>
@@ -157,9 +158,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="493" y="243" key="#Composer/0.0.1366.728@0.0.1366.728" timestamp="1605443421003" />
+    <state x="428" y="188" key="#Notifications" timestamp="1605444105308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="428" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1605444105308" />
     <state x="641" y="92" key="FileChooserDialogImpl" timestamp="1605443419827">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="641" y="92" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605443419827" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1605444188626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605444188626" />
   </component>
 </project>
